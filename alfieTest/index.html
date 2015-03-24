@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title>demo</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<style>
+body{ background-color:#1a97e2}
+
+.bl_group{ position:relative; width:100%; overflow:hidden; margin-top:-100px}
+.bl_group:first-child{ margin-top:0}
+.bl_group .b1{ width:640px; height:272px;/* 0.3 x 1.414 x 640px */ -webkit-transform:rotate(2deg); margin:0 0 0 -40px;}
+.bl_group:nth-child(even) .b1{ float:right; -webkit-transform:rotate(-2deg); margin:0 -40px 0 0;}
+.bl_group .c1{ position:absolute; width:100%; height:100%; top:0}
+.bl_group .i1{ min-height:640px; -webkit-transform:rotate(47deg); -webkit-transform-origin:0 0; background:#188dde;}
+.bl_group:nth-child(even) .i1{ -webkit-transform:rotate(-43deg); -webkit-transform-origin:100% 0; background:#1ca5ed;}
+.bl_group .b2{ -webkit-transform:scaleY(.3);-webkit-transform-origin:0 0; height:905px;/* 1.414 x 640 */}
+.bl_group .c1 .demopic{ position:absolute; right:0; bottom:50px; width:100px; height:200px; border-radius:100px 100px 0 0; background:#fff}
+.bl_group:nth-child(even) .c1 .demopic{ right:auto; left:0}
+.bl_group .c1 .txt{ padding:50px 130px 50px 15px; text-align:left; word-wrap:break-word; word-break:break-all;}
+.bl_group:nth-child(even) .c1 .txt{ padding:50px 15px 50px 130px; text-align:right}
+
+</style>
+
+</head>
+
+<body ontouchstart="">
+
+<div class="bl_group clear">
+	<div class="b1"><div class="b2"><div class="i1"></div></div></div>
+	<div class="c1">
+		<div class="demopic"></div>
+		<div class="txt">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</div>
+	</div>
+</div>
+
+<div class="bl_group clear">
+	<div class="b1"><div class="b2"><div class="i1"></div></div></div>
+	<div class="c1">
+		<div class="demopic"></div>
+		<div class="txt">Text</div>
+	</div>
+</div>
+
+<div class="bl_group clear">
+	<div class="b1"><div class="b2"><div class="i1"></div></div></div>
+	<div class="c1">
+		<div class="demopic"></div>
+		<div class="txt">Text</div>
+	</div>
+</div>
+
+<div class="bl_group clear">
+	<div class="b1"><div class="b2"><div class="i1"></div></div></div>
+	<div class="c1">
+		<div class="demopic"></div>
+		<div class="txt">Text</div>
+	</div>
+</div>
+
+</body>
+</html>

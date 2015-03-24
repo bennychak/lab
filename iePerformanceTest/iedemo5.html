@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>-ms-</title>
+<style type="text/css">
+/* 1 CSS RESET
+================================================================*/
+
+html{}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,header,footer,nav,article{margin:0;padding:0}
+header,footer,nav,article{ display: block;}
+table{border-collapse:collapse;border-spacing:0}
+img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+body{height:100%;font:12px/1.75 Tahoma,Arial,sans-serif; background-attachment: fixed;overflow-y:auto; color:#333; background: #eeece1}
+input,textarea,select,button{ outline: none; resize:none;font:12px/1.75 Tahoma,Arial,sans-serif;}
+select{font-size:12px}
+button{line-height:1.231;white-space:nowrap;vertical-align:middle;cursor:pointer}
+strong{font-weight:800}
+a{ text-decoration: none; outline: none; cursor: pointer;}
+a:hover{ text-decoration: underline;}
+
+h1{ font-size: 80px}
+h2{ font-size: 80px; font-family: Microsoft Yahei; margin-bottom: 20px}
+.title{ font-size: 80px; font-family: Microsoft Yahei; color:#666;}
+.bd{ font-size: 40px; font-family:Microsoft Yahei}
+.bd p{ margin-bottom: 15px; color:666;}
+.bd p.blockquote{ font-size: 24px; color:#999;}
+.ft{ font-size: 40px}
+.scene{ margin:0 50px; min-height:800px; border-bottom:#bbb 10px solid}
+.scene .bd{ padding:100px 0;}
+</style>
+</head>
+<body>
+<div class="scene">
+	<div class="bd" style="padding-top:200px">
+		<img src="ie.png" style="float:left; margin-right:20px;" alt="" />
+		<div style="margin-left:265px" class="title">-ms-:微软的私有前缀</div>
+		<div style="margin-left:265px" class="ft">WDC Bennyzhai 2013.4.11</div>
+	</div>
+</div>
+<div class="scene">
+	<div class="bd">
+		<h2>跑在标准之前</h2>
+		<p>CSS在不断发展中，浏览器厂商一直跑在标准的前面</p>
+		<p>CSS2.1规定浏览器厂商在使用未进入标准的CSS属性时，需要加自己的前缀</p>
+		<p>-ms-:Microsoft; -moz-:Mozilla; -o-:Opera</p>
+	</div>
+</div>
+<div class="scene">
+	<div class="bd">
+		<h2>从IE8开始</h2>
+		<p>哪些CSS属性会被微软要求加上-ms-前缀：</p>
+		<p>1. 从未收入CSS标准化规范的微软私有扩展(extension)</p>
+		<p>2. 属于CSS规范的一部分，但是W3C还没有官方推荐的属性</p>
+		<p>3. CSS规范已定义的部分属性</p>
+		<p>So，extension不属于css规范，如zoom、filter等</p>
+	</div>
+</div>
+<div class="scene">
+	<div class="bd">
+		<h2>-ms-accelerator(ext)</h2>
+		<p>设定或返回一个字符串，表明对象是否代表一个快捷键</p>
+		<p>值：true/false</p>
+		<p>demo: <label for="name"><u style="-ms-accelerator:true; text-decoration:underline">(N)</u>ame: </label><input accesskey="n" id="name" type="text" style=" border:#333 2px solid; height:40px; width:300px; vertical-align:middle; font-size:20px" value="defaultName" /></p>
+	</div>
+</div>
+<div class="scene">
+	<div class="bd">
+		<h2>-ms-behavior(ext)</h2>
+		<p>设定或返回一个字符串，表明对象是否代表一个快捷键</p>
+		<p>值：true/false</p>
+		<p>demo: <label for="name"><u style="-ms-accelerator:true; text-decoration:underline">(N)</u>ame: </label><input accesskey="n" id="name" type="text" style=" border:#333 2px solid; height:40px; width:300px; vertical-align:middle; font-size:20px" value="defaultName" /></p>
+	</div>
+</div>
+</body>
+</html>

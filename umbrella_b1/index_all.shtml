@@ -1,0 +1,1912 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>瑶瑶拼伞</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://mat1.gtimg.com/www/mb/images/bplan/b1/touchicon2.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://mat1.gtimg.com/www/mb/images/bplan/b1/touchicon2_retina.png" />
+
+<link rel="apple-touch-startup-image" href="http://mat1.gtimg.com/www/mb/images/bplan/b1/startup.png" />
+<link rel="apple-touch-startup-image" sizes="640x1096" href="http://mat1.gtimg.com/www/mb/images/bplan/b1/startup_retina.png" />
+<link rel="apple-touch-startup-image" sizes="320x460" href="http://mat1.gtimg.com/www/mb/images/bplan/b1/startup.png" media="screen and (max-device-width: 320)" />
+
+<link rel="shortcut icon" href="http://mat1.gtimg.com/www/mb/favicon.ico" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../css/lab/umbrella_b1/jquery.mobile-1.3.2.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../css/lab/umbrella_b1/style.css" />
+<script type="text/javascript" src="script/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="script/jquery.mobile-1.3.2.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
+
+</head>
+<body ontouchstart="">
+
+<!-- 启动页 -->
+<style type="text/css">
+#startup{ background:#B6E6FD url(startup_retina.png) center center no-repeat; background-size:320px 548px;}
+</style>
+<div id="startup" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_bd bg0" data-role="content">
+		<a href="#umbrella" data-transition="slide" class="f_lefttarget" style="position:absolute; left:0; top:0; width:100%; height:100%"></a>
+	</div>
+</div>
+<!-- /启动页 -->
+
+<!-- 有伞 -->
+<div id="umbrella" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_umbrella_tabs bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn" href="#find" data-rel="dialog" data-transition="none"><span class="ico30 ico_location"></span></a>
+		<h1 class="tit">
+			<div class="umbrella_tabs">
+				<a class="select" href="#umbrella" data-transition="none">
+					有伞<span class="bottom_arr"><i></i></span>
+				</a>
+				<a href="#beg" data-transition="none">
+					求伞<span class="bottom_arr"><i></i></span>
+				</a>
+			</div>
+		</h1>
+		<a class="hd_r_btn" href="#publish" data-transition="slideup"><span class="ico30 ico_publish"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 拼伞主timeline -->
+		<ul class="umbrella_ls">
+
+	<li class="time_divide">30分钟前</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">夏目 <span class="ico20 ico_male0"></span> 22</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">三元桥地铁-凤凰城</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/22.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">benny <span class="ico20 ico_male0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">银科大厦-永泰庄</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="time_divide">1小时前</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/33.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">too2ye <span class="ico20 ico_male0"></span> 21</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人6</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">银科大厦-和平东里</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/44.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">瑶瑶 <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人10</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">海淀桥-苏州街地铁站</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">rina <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人15</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">家乐福-中国技术交易大厦</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/66.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">弗兰克 <span class="ico20 ico_male0"></span> 19</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">薇薇婚纱摄影-海淀教堂</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="time_divide">1天前</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/77.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">小灰灰 <span class="ico20 ico_male0"></span> 21</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人6</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">东方斯卡拉-北京大学</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/88.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">萌妹纸 <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人10</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">海淀图书城-鼎好</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="time_divide">loading</li>
+
+</ul>
+		<!-- /拼伞主timeline -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 拼伞主tabs -->
+		<div class="main_tabs clear">
+	<a href="#umbrella" class="main_tab select" data-transition="none">
+		<span class="ico30 ico_together4"></span>
+	</a>
+	<a href="#message" class="main_tab f_lefttarget" data-transition="none">
+		<span class="ico30 ico_chatpop4"></span><sup class="tip_dock"><span class="tip">1</span></sup>
+	</a>
+	<a href="#my" class="main_tab" data-transition="none">
+		<span class="ico30 ico_person4"></span>
+	</a>
+</div>
+		<!-- 拼伞主tabs -->
+
+	</div>
+
+	<!-- 筛选fix -->
+	<div class="filter_box"><a href="javascript:;">筛选</a></div>
+	<!-- /筛选fix -->
+
+</div>
+<!-- /有伞 -->
+
+<!-- 求伞 -->
+<div id="beg" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_umbrella_tabs bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn" href="#find" data-rel="dialog" data-transition="none"><span class="ico30 ico_location"></span></a>
+		<h1 class="tit">
+			<div class="umbrella_tabs">
+				<a href="#umbrella" data-transition="none">
+					有伞<span class="bottom_arr"><i></i></span>
+				</a>
+				<a class="select" href="#beg" data-transition="none">
+					求伞<span class="bottom_arr"><i></i></span>
+				</a>
+			</div>
+		</h1>
+		<a class="hd_r_btn" href="#publish" data-transition="slideup"><span class="ico30 ico_publish"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 拼伞主timeline -->
+		<ul class="umbrella_ls">
+
+	<li class="time_divide">1小时前</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/33.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">too2ye <span class="ico20 ico_male0"></span> 21</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人6</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">银科大厦-和平东里</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_beg" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/44.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">瑶瑶 <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人10</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">海淀桥-苏州街地铁站</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_beg" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">rina <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人15</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">家乐福-中国技术交易大厦</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_beg" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/66.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">弗兰克 <span class="ico20 ico_male0"></span> 19</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">薇薇婚纱摄影-海淀教堂</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_beg" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="time_divide">1天前</li>
+
+	<li class="item clear item_togethered">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/77.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">小灰灰 <span class="ico20 ico_male0"></span> 21</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人6</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">东方斯卡拉-北京大学</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_beg" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/88.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">萌妹纸 <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人10</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx2">海淀图书城-鼎好</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_beg" data-transition="slide"></a>
+		<div class="together_btn">
+			<a href="#pin" data-rel="dialog" data-transition="none" class="btn">拼</a>
+		</div>
+	</li>
+
+	<li class="time_divide">loading</li>
+
+</ul>
+		<!-- /拼伞主timeline -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 拼伞主tabs -->
+		<div class="main_tabs clear">
+	<a href="#umbrella" class="main_tab select" data-transition="none">
+		<span class="ico30 ico_together4"></span>
+	</a>
+	<a href="#message" class="main_tab f_lefttarget" data-transition="none">
+		<span class="ico30 ico_chatpop4"></span><sup class="tip_dock"><span class="tip">1</span></sup>
+	</a>
+	<a href="#my" class="main_tab" data-transition="none">
+		<span class="ico30 ico_person4"></span>
+	</a>
+</div>
+		<!-- 拼伞主tabs -->
+
+	</div>
+
+	<!-- 筛选fix -->
+	<div class="filter_box"><a href="javascript:;">筛选</a></div>
+	<!-- /筛选fix -->
+
+</div>
+<!-- /求伞 -->
+
+<!-- 发布 -->
+<div id="publish" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#umbrella" data-transition="slidedown"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">我要拼伞</div>
+		</h1>
+		<a class="hd_r_btn c_tx3 tx_2" onclick="
+				$.mobile.changePage('#pin_success',{transition:'none', role:'dialog'});
+				window.setTimeout(function() {
+					$('#returnHome').trigger('click');
+				}, 2000);
+				">发送</a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 发布内容 -->
+		<div class="publish_content">
+	<div class="bd">
+
+		<!-- 双按钮 -->
+		<div class="alter_btns clear">
+			<a href="javascript:;" class="left btn select">我求伞</a>
+			<a href="javascript:;" class="right btn">我有伞</a>
+		</div>
+		<!-- /双按钮 -->
+
+		<div class="inputAreaWrap e_inputs_divide">
+			<div class="locationEx clear">
+				<div class="left">
+					<input onfocus="$('#location_list1').slideDown(200)" onblur="$('#location_list1').slideUp(200)" type="text" class="inputTxt tx_-1" value="苏州街地铁站" />
+				</div>
+				<div class="right">
+					<span class="c_tx0 tx_-1">起点</span>
+				</div>
+				<div id="location_list1" class="location_list">
+					<span class="item c_tx0 tx_-1">使用当前位置</span>
+					<span class="item e_location_list_divide c_tx0 tx_-1">常用</span>
+					<a href="javascript:;" class="item c_tx1 tx_-1">三元桥地铁站-凤凰城</a>
+					<a href="javascript:;" class="item c_tx1 tx_-1">苏州街地铁站-银科大厦</a>
+					<a href="javascript:;" class="item c_tx1 tx_-1">银科大厦-苏州街地铁站</a>
+				</div>
+			</div>
+			<div class="locationEx clear">
+				<div class="left">
+					<input onfocus="$('#location_list2').slideDown(200)" onblur="$('#location_list2').slideUp(200)" type="text" class="inputTxt tx_-1" value="银科大厦" />
+				</div>
+				<div class="right">
+					<span class="c_tx0 tx_-1">终点</span>
+				</div>
+				<div id="location_list2" class="location_list">
+					<span class="item c_tx0 tx_-1">使用当前位置</span>
+					<span class="item e_location_list_divide c_tx0 tx_-1">常用</span>
+					<a href="javascript:;" class="item c_tx1 tx_-1">三元桥地铁站-凤凰城</a>
+					<a href="javascript:;" class="item c_tx1 tx_-1">苏州街地铁站-银科大厦</a>
+					<a href="javascript:;" class="item c_tx1 tx_-1">银科大厦-苏州街地铁站</a>
+				</div>
+			</div>
+			<a href="javascript:;" class="exchange_location"><span class="ico20 ico_exchange0"></span></a>
+		</div>
+
+		<div class="inputAreaWrap">
+			<div class="inputArea1">
+				<textarea class="tx_-1">顺路求一同拼伞</textarea>
+			</div>
+			<div class="inputBottom clear"><div class="right"><span class="c_tx1 tx_-2">135字</span></div></div>
+		</div>
+		
+		<div class="class_divide">个人信息</div>
+
+		<div class="inputAreaWrap">
+			<div class="inputTxt1">
+				<input type="text" class="inputTxt tx_-1" value="benny" />
+			</div>
+		</div>
+
+		<!-- 双按钮 -->
+		<div class="alter_btns e_alter_sex clear">
+			<a href="javascript:;" class="left btn select">男</a>
+			<a href="javascript:;" class="right btn">女</a>
+		</div>
+		<!-- /双按钮 -->
+
+	</div>
+</div>
+		<!-- /发布内容 -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 定位 -->
+		<div class="foot_location bg2 clear">
+	<div class="left">
+		<span class="ico20 ico_location2"></span> <a class="vt_m tx_-1" href="javascript:;">北京市朝阳区花家地西里</a>
+	</div>
+	<div class="right">
+		<span class="ico20 ico_refresh2"></span>
+	</div>
+</div>
+		<!-- 定位 -->
+
+	</div>
+
+</div>
+<!-- /发布 -->
+
+<!-- 消息 -->
+<div id="message" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_umbrella_tabs bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn" href="#contact" data-transition="slideup"><span class="ico30 ico_person"></span></a>
+		<h1 class="tit">
+			<div class="umbrella_tabs">
+				<a class="select" href="#message" data-transition="none">消息</a>
+			</div>
+		</h1>
+		<a class="hd_r_btn" href="#im" data-transition="slideup"><span class="ico30 ico_umbrella"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 拼伞主timeline --><ul class="umbrella_ls">
+
+	<li class="time_divide">刚刚</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">rina <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人15</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx1">想和你拼伞</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_im" data-transition="slide"></a>
+	</li>
+
+	<li class="time_divide">30分钟前</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/77.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">小灰灰 <span class="ico20 ico_male0"></span> 21</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人6</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx1">“顺路求拼伞~:D”</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_im" data-transition="slide"></a>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/44.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">瑶瑶 <span class="ico20 ico_female0"></span> 20</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人10</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx1">“顺路可以捎你一程哦”</span>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_im" data-transition="slide"></a>
+	</li>
+
+	<li class="item clear">
+		<div class="userPic">
+			<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="" />
+		</div>
+		<div class="msgBox">
+			<div class="userName clear c_tx1">
+				<div class="left">夏目 <span class="ico20 ico_male0"></span> 22</div>
+				<div class="right"><span class="distance">0.5km</span> <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span></div>
+			</div>
+			<div class="position">
+				<span class="c_tx1">“今天拼伞怎么样？”</span>
+				<a href="#rate" data-transition="slideup">请评价</a>
+			</div>
+		</div>
+		<a class="user_lk" href="#custom_im" data-transition="slide"></a>
+	</li>
+
+</ul>
+		<!-- /拼伞主timeline -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 拼伞主tabs --><div class="main_tabs clear">
+	<a href="#umbrella" class="main_tab f_righttarget" data-transition="none">
+		<span class="ico30 ico_together4"></span>
+	</a>
+	<a href="#message" class="main_tab select" data-transition="none">
+		<span class="ico30 ico_chatpop4"></span>
+	</a>
+	<a href="#my" class="main_tab f_lefttarget" data-transition="none">
+		<span class="ico30 ico_person4"></span>
+	</a>
+</div>
+		<!-- 拼伞主tabs -->
+
+	</div>
+
+</div>
+<!-- /消息 -->
+
+<!-- 联系人 -->
+<div id="contact" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#message" data-transition="slidedown"><span class="ico30 ico_chatpop"></span><sup class="tip_dock"><span class="tip">1</span></sup></a>
+		<h1 class="tit">
+			<div class="normal_tit">联系人</div>
+		</h1>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 联系人列表 --><div class="userGroup">
+	<div class="hd">
+
+		<!-- 搜索 -->
+		<div class="inputTxt1 inputHead">
+			<span class="input_hd">
+				<span class="ico30 ico_search0"></span>
+			</span>
+			<input class="inputTxt" type="text" />
+		</div>
+		<!-- 搜索 -->
+
+	</div>
+	<div class="bd">
+		<ul class="userGroup_ls">
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">最近联系人</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+				<div class="contact_list">
+
+					<!-- 用户列表 --><ul>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">夏目 <span class="ico20 ico_male0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">让你疲惫的不是你的鞋子，而是...</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">rina <span class="ico20 ico_female0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">I think that we will live togother for...</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/77.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">小灰灰 <span class="ico20 ico_male0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">我只发图不说话</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+</ul>
+					<!-- /用户列表 -->
+
+				</div>
+			</li>
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">三元桥地铁</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+				<div class="contact_list">
+
+					<!-- 用户列表 --><ul>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">夏目 <span class="ico20 ico_male0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">让你疲惫的不是你的鞋子，而是...</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">rina <span class="ico20 ico_female0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">I think that we will live togother for...</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/77.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">小灰灰 <span class="ico20 ico_male0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">我只发图不说话</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+</ul>
+					<!-- /用户列表 -->
+
+				</div>
+			</li>
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">海淀黄庄</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+				<div class="contact_list">
+
+					<!-- 用户列表 --><ul>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">夏目 <span class="ico20 ico_male0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">让你疲惫的不是你的鞋子，而是...</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">rina <span class="ico20 ico_female0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">I think that we will live togother for...</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+<li class="contact_item clear">
+	<div class="userPic">
+		<img src="../../css/lab/umbrella_b1/images/77.jpg" alt="">
+	</div>
+	<div class="msgBox clear">
+		<div class="userName clear">
+			<span class="c_tx1">小灰灰 <span class="ico20 ico_male0"></span></span>
+		</div>
+		<div class="userDescribe">
+			<span class="tx_-2 c_tx1">我只发图不说话</span>
+		</div>
+	</div>
+	<a class="user_lk ui-link" href="#custom" data-transition="slide"></a>
+</li>
+</ul>
+					<!-- /用户列表 -->
+
+				</div>
+			</li>
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">西直门</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+			</li>
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">北京大学西门</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+		<!-- /联系人列表 -->
+
+	</div>
+
+</div>
+<!-- /联系人 -->
+
+<!-- IM -->
+<div id="im" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#message" data-transition="slidedown"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">小灰灰</div>
+		</h1>
+		<a class="hd_r_btn" href="javascript:;" data-transition="none"><span class="ico30 ico_3dots"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- IM对话 --><ul class="im_chat">
+	<li class="time_divide">刚刚</li>
+	<li class="l clear">
+		<div class="userPic"><img src="../../css/lab/umbrella_b1/images/77.jpg" alt="" /></div>
+		<div class="dialog">
+			<em class="arr"></em>
+			<div class="p">你大概什么时候出站，我已经在地铁口了:）</div>
+		</div>
+	</li>
+	<li class="r clear">
+		<div class="userPic"><img src="../../css/lab/umbrella_b1/images/22.jpg" alt="" /></div>
+		<div class="dialog">
+			<em class="arr"></em>
+			<div class="p">十分钟</div>
+		</div>
+	</li>
+	<li class="l clear">
+		<div class="userPic"><img src="../../css/lab/umbrella_b1/images/77.jpg" alt="" /></div>
+		<div class="dialog">
+			<em class="arr"></em>
+			<div class="p">好，我等你啊</div>
+		</div>
+	</li>
+	<li class="r clear">
+		<div class="userPic"><img src="../../css/lab/umbrella_b1/images/22.jpg" alt="" /></div>
+		<div class="dialog">
+			<em class="arr"></em>
+			<div class="p">告诉你一个不幸的消息，我在国贸换乘，华丽丽滴坐反车鸟。。。。</div>
+		</div>
+	</li>
+	<li class="l clear">
+		<div class="userPic"><img src="../../css/lab/umbrella_b1/images/77.jpg" alt="" /></div>
+		<div class="dialog">
+			<em class="arr"></em>
+			<div class="p">。。。。</div>
+		</div>
+	</li>
+</ul>
+		<!-- /IM对话 -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 输入区 --><div class="im_input clear bg4">
+	<div class="im_inputTxt"><input type="text" onclick="scrollBottom()" /></div>
+	<a class="left" href="javascript:;"><span class="ico30 ico_voice4"></span></a>
+	<a class="left" href="javascript:;"><span class="ico30 ico_plus4"></span></a>
+	<a class="submit" href="javascript:;">发送</a>
+</div>
+		<!-- 输入区 -->
+
+	</div>
+
+</div>
+<!-- /IM -->
+
+<!-- 客人页 -->
+<div id="custom" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#umbrella" data-transition="slide" data-direction="reverse"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">个人资料</div>
+		</h1>
+		<a class="hd_r_btn" href="javascript:;"><span class="ico30 ico_3dots"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 客人页内容 --><div class="custom_content">
+	
+	<div class="header">
+		<div class="cover"><img src="../../css/lab/umbrella_b1/images/custom_cover1.jpg" alt="" /></div>
+		<div class="custom_card clear">
+			<div class="userPic">
+				<img src="../../css/lab/umbrella_b1/images/22.jpg" alt="" />
+			</div>
+			<div class="userMsg">
+				<div class="userName c_tx3">benny</div>
+				<div class="userInfo clear c_tx1">
+					<div class="left">
+						<span class="ico20 ico_male0"></span> 22
+					</div>
+					<div class="right">
+						<span class="distance">0.5km</span>
+						<span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="lst_info c_tx1 tx_-1">
+			<div class="lst_type1">
+			<ul>
+			<li>
+				<div class="it">
+					<span class="c_tx2">有伞</span>
+				</div>
+				<div class="info">
+					<span class="c_tx2">三元桥地铁-凤凰城</span>
+				</div>
+			</li>
+			<li>
+				<div class="it tx_r">
+					<span class="ico30 ico_announce0"></span>
+				</div>
+				<div class="info">
+					<span>我有一把大伞，等妹子共享</span>
+				</div>
+			</li>
+			</ul>
+			</div>
+		</div>
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>好人指数</span>
+				</div>
+				<div class="info">
+					<span>15</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>个人勋章</span>
+				</div>
+				<div class="info">
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>拼伞成功</span>
+				</div>
+				<div class="info">
+					<span>10</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+		<hr />
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>兴趣</span>
+				</div>
+				<div class="info">
+					<span>吃 睡</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>职业</span>
+				</div>
+				<div class="info">
+					<span>设计师</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>公司</span>
+				</div>
+				<div class="info">
+					<span>KK</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>学校</span>
+				</div>
+				<div class="info">
+					<span>BNU</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>签名</span>
+				</div>
+				<div class="info">
+					<span>生活是流，流淌在身边，俯首可捞的都是音符。</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+	</div>
+
+</div>		<!-- /客人页内容 -->
+
+	</div>
+	<div class="page_ft e_page_ft_btn" data-role="footer" data-position="fixed" data-tap-toggle="false">
+		<h4><a href="javascript:;" class="bottom_btn tx_1">拼伞</a></h4>
+	</div>
+</div>
+<!-- /客人页 -->
+
+<!-- 客人页 -->
+<div id="custom_beg" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#beg" data-transition="slide" data-direction="reverse"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">个人资料</div>
+		</h1>
+		<a class="hd_r_btn" href="javascript:;"><span class="ico30 ico_3dots"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 客人页内容 --><div class="custom_content">
+	
+	<div class="header">
+		<div class="cover"><img src="../../css/lab/umbrella_b1/images/custom_cover2.jpg" alt="" /></div>
+		<div class="custom_card clear">
+			<div class="userPic">
+				<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="" />
+			</div>
+			<div class="userMsg">
+				<div class="userName c_tx3">夏目</div>
+				<div class="userInfo clear c_tx1">
+					<div class="left">
+						<span class="ico20 ico_male0"></span> 22
+					</div>
+					<div class="right">
+						<span class="distance">0.5km</span>
+						<span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="lst_info c_tx1 tx_-1">
+			<div class="lst_type1">
+			<ul>
+			<li>
+				<div class="it">
+					<span class="c_tx2">求伞</span>
+				</div>
+				<div class="info">
+					<span class="c_tx2">三元桥地铁-凤凰城</span>
+				</div>
+			</li>
+			<li>
+				<div class="it tx_r">
+					<span class="ico30 ico_announce0"></span>
+				</div>
+				<div class="info">
+					<span>有顺路的吗？求拼伞！:)</span>
+				</div>
+			</li>
+			</ul>
+			</div>
+		</div>
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>好人指数</span>
+				</div>
+				<div class="info">
+					<span>6</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>个人勋章</span>
+				</div>
+				<div class="info">
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>拼伞成功</span>
+				</div>
+				<div class="info">
+					<span>7</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+		<hr />
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>兴趣</span>
+				</div>
+				<div class="info">
+					<span>旅行 摄影</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>职业</span>
+				</div>
+				<div class="info">
+					<span>英语老师</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>公司</span>
+				</div>
+				<div class="info">
+					<span>MXM</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>学校</span>
+				</div>
+				<div class="info">
+					<span>UTA</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>签名</span>
+				</div>
+				<div class="info">
+					<span>使你疲惫的不是远处的高山,而是你鞋里的一粒沙子</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+		<!-- /客人页内容 -->
+
+	</div>
+	<div class="page_ft e_page_ft_btn" data-role="footer" data-position="fixed" data-tap-toggle="false">
+		<h4><a href="javascript:;" class="bottom_btn tx_1">拼伞</a></h4>
+	</div>
+</div>
+<!-- /客人页 -->
+
+<!-- 客人页 -->
+<div id="custom_im" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#message" data-transition="slide" data-direction="reverse"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">个人资料</div>
+		</h1>
+		<a class="hd_r_btn" href="javascript:;"><span class="ico30 ico_3dots"></span></a>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 客人页内容 --><div class="custom_content">
+	
+	<div class="header">
+		<div class="cover"><img src="../../css/lab/umbrella_b1/images/custom_cover3.jpg" alt="" /></div>
+		<div class="custom_card clear">
+			<div class="userPic">
+				<img src="../../css/lab/umbrella_b1/images/55.jpg" alt="" />
+			</div>
+			<div class="userMsg">
+				<div class="userName c_tx3">rina</div>
+				<div class="userInfo clear c_tx1">
+					<div class="left">
+						<span class="ico20 ico_male0"></span> 22
+					</div>
+					<div class="right">
+						<span class="distance">0.5km</span>
+						<span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="lst_info c_tx1 tx_-1">
+			<div class="lst_type1">
+			<ul>
+			<li>
+				<div class="it">
+					<span class="c_tx2">求伞</span>
+				</div>
+				<div class="info">
+					<span class="c_tx2">三元桥地铁-凤凰城</span>
+				</div>
+			</li>
+			<li>
+				<div class="it tx_r">
+					<span class="ico30 ico_announce0"></span>
+				</div>
+				<div class="info">
+					<span>想和你拼伞</span>
+				</div>
+			</li>
+			</ul>
+			</div>
+		</div>
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>好人指数</span>
+				</div>
+				<div class="info">
+					<span>6</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>个人勋章</span>
+				</div>
+				<div class="info">
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>拼伞成功</span>
+				</div>
+				<div class="info">
+					<span>12</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+		<hr />
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>兴趣</span>
+				</div>
+				<div class="info">
+					<span>旅行 摄影</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>职业</span>
+				</div>
+				<div class="info">
+					<span>英语老师</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>公司</span>
+				</div>
+				<div class="info">
+					<span>MXM</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>学校</span>
+				</div>
+				<div class="info">
+					<span>UTA</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>签名</span>
+				</div>
+				<div class="info">
+					<span>使你疲惫的不是远处的高山,而是你鞋里的一粒沙子</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+		<!-- /客人页内容 -->
+
+	</div>
+	<div class="page_ft e_page_ft_btn" data-role="footer" data-position="fixed" data-tap-toggle="false">
+		<h4><a href="javascript:;" class="bottom_btn tx_1">同意拼伞</a></h4>
+	</div>
+</div>
+<!-- /客人页 -->
+
+<!-- 客人页 -->
+<div id="custom_my" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn f_righttarget" href="#my" data-transition="slide" data-direction="reverse"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">个人资料</div>
+		</h1>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 客人页内容 --><div class="custom_content">
+	
+	<div class="header">
+		<div class="cover"><img src="../../css/lab/umbrella_b1/images/custom_cover2.jpg" alt="" /></div>
+		<div class="custom_card clear">
+			<div class="userPic">
+				<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="" />
+			</div>
+			<div class="userMsg">
+				<div class="userName c_tx3">夏目</div>
+				<div class="userInfo clear c_tx1">
+					<div class="left">
+						<span class="ico20 ico_male0"></span> 22
+					</div>
+					<div class="right">
+						<span class="distance">0.5km</span>
+						<span class="characteristic c_tx2 tx_-2 dis_inb vt_m">游客</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="lst_info c_tx1 tx_-1">
+			<div class="lst_type1">
+			<ul>
+			<li>
+				<div class="it">
+					<span class="c_tx2">求伞</span>
+				</div>
+				<div class="info">
+					<span class="c_tx2">三元桥地铁-凤凰城</span>
+				</div>
+			</li>
+			<li>
+				<div class="it tx_r">
+					<span class="ico30 ico_announce0"></span>
+				</div>
+				<div class="info">
+					<span>有顺路的吗？求拼伞！:)</span>
+				</div>
+			</li>
+			</ul>
+			</div>
+		</div>
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>好人指数</span>
+				</div>
+				<div class="info">
+					<span>6</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>个人勋章</span>
+				</div>
+				<div class="info">
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+					<span class="ico20 ico_medal0"></span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>拼伞成功</span>
+				</div>
+				<div class="info">
+					<span>7</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+		<hr />
+		<div class="lst_info c_tx1 tx_-1">
+			<ul>
+			<li>
+				<div class="it">
+					<span>兴趣</span>
+				</div>
+				<div class="info">
+					<span>旅行 摄影</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>职业</span>
+				</div>
+				<div class="info">
+					<span>英语老师</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>公司</span>
+				</div>
+				<div class="info">
+					<span>MXM</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>学校</span>
+				</div>
+				<div class="info">
+					<span>UTA</span>
+				</div>
+			</li>
+			<li>
+				<div class="it">
+					<span>签名</span>
+				</div>
+				<div class="info">
+					<span>使你疲惫的不是远处的高山,而是你鞋里的一粒沙子</span>
+				</div>
+			</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+		<!-- /客人页内容 -->
+
+	</div>
+</div>
+<!-- /客人页 -->
+
+<!-- 我的 -->
+<div id="my" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<h1 class="tit">
+			<div class="normal_tit">我的</div>
+		</h1>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 我的内容 --><div class="mySet">
+	<div class="bd">
+		<ul class="userGroup_ls">
+			<li class="group_item">
+				<a class="group bg3 clear" href="#custom_my" data-transition="slide">
+					<span class="my_profile clear">
+						<span class="userPic">
+							<img src="../../css/lab/umbrella_b1/images/11.jpg" alt="" />
+						</span>
+						<span class="msgBox">
+							<span class="userName c_tx1">夏目</span>
+							<span class="position">
+								<span class="ico20 ico_male0"></span> 22 白羊座 <span class="characteristic c_tx2 tx_-2 dis_inb vt_m">好人6</span>
+							</span>
+						</span>
+					</span>
+					<span class="profile_arr right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+			</li>
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">拼伞记录</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+			</li>
+			<li class="group_item">
+				<a class="group bg3 clear" href="javascript:;">
+					<span class="left c_tx0">设置</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+			</li>
+			<li class="group_item" style="visibility:hidden">
+				<a class="group bg3 clear f_lefttarget" href="#page_guideline" data-transition="slide">
+					<span class="left c_tx0">“瑶瑶拼伞” Icon Guideline</span>
+					<span class="right">
+						<span class="ico20 ico_arrright3"></span>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+		<!-- /我的内容 -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 拼伞主tabs --><div class="main_tabs clear">
+	<a href="#umbrella" class="main_tab" data-transition="none">
+		<span class="ico30 ico_together4"></span>
+	</a>
+	<a href="#message" class="main_tab f_righttarget" data-transition="none">
+		<span class="ico30 ico_chatpop4"></span>
+	</a>
+	<a href="#my" class="main_tab select" data-transition="none">
+		<span class="ico30 ico_person4"></span>
+	</a>
+</div>
+		<!-- 拼伞主tabs -->
+
+	</div>
+</div>
+<!-- /我的 -->
+
+<!-- 拼伞评价 -->
+<div id="rate" class="page" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_hd e_page_hd_normal bg1 clear" data-role="header" data-position="fixed" data-tap-toggle="false">
+		<a class="hd_l_btn" href="#message" data-transition="slidedown"><span class="ico30 ico_chatpop"></span><sup class="tip_dock"><span class="tip">1</span></sup></a>
+		<h1 class="tit">
+			<div class="normal_tit">拼伞评价</div>
+		</h1>
+	</div>
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 评价内容 --><div class="rate_content">
+	<div class="hd bg3 clear">
+		<div class="time c_tx1 tx_-1">2013-07-06</div>
+		<div class="vsIco"><span class="ico30 ico_together3"></span></div>
+		<div class="left">
+			<div class="userPic"><img src="../../css/lab/umbrella_b1/images/11.jpg" alt="" /></div>
+			<div class="userName c_tx1">夏目</div>
+		</div>
+		<div class="right">
+			<div class="userPic"><img src="../../css/lab/umbrella_b1/images/44.jpg" alt="" /></div>
+			<div class="userName c_tx1">瑶瑶</div>
+		</div>
+		<div class="local clear">
+			<div class="left c_tx1">苏州街地铁站</div>
+			<div class="right c_tx1">银科大厦</div>
+		</div>
+	</div>
+	<div class="bd">
+		<div class="txt_label"><span class="c_tx0 tx_-1">是否到达目的地</span></div>
+
+		<!-- 双按钮 -->
+		<div class="alter_btns clear">
+			<a href="javascript:;" class="left btn select">到达</a>
+			<a href="javascript:;" class="right btn">未到达</a>
+		</div>
+		<!-- /双按钮 -->
+
+		<div class="divide1 e_inputs_divide"></div>
+
+		<div class="star">
+			<div class="item clear">
+				<div class="left">
+					<span class="c_tx0 vt_m tx_-1 tit">心情指数</span>
+					<span class="ico20 ico_feel0"></span>
+					<span class="ico20 ico_feel0"></span>
+					<span class="ico20 ico_feel0"></span>
+					<span class="ico20 ico_feel_disabled0"></span>
+					<span class="ico20 ico_feel_disabled0"></span>
+				</div>
+				<div class="right">
+					<span class="c_tx1 tx_-1">不错</span>
+				</div>
+			</div>
+			<div class="item clear">
+				<div class="left">
+					<span class="c_tx0 vt_m tx_-1 tit">好人指数</span>
+					<span class="ico20 ico_praise0"></span>
+					<span class="ico20 ico_praise0"></span>
+					<span class="ico20 ico_praise0"></span>
+					<span class="ico20 ico_praise0"></span>
+					<span class="ico20 ico_praise_disabled0"></span>
+				</div>
+				<div class="right">
+					<span class="c_tx1 tx_-1">大好人</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="inputAreaWrap">
+			<div class="inputArea1">
+				<textarea class="tx_-1">还有话说 </textarea>
+			</div>
+			<div class="inputBottom clear"><div class="right"><span class="c_tx1 tx_-2">135字</span></div></div>
+		</div>
+
+	</div>
+</div>
+		<!-- /评价内容 -->
+
+	</div>
+	<div class="page_ft e_page_ft_btn" data-role="footer" data-position="fixed" data-tap-toggle="false">
+		<h4><a href="#umbrella" data-transition="slidedown" class="bottom_btn tx_1">提交</a></h4>
+	</div>
+</div>
+<!-- /拼伞评价 -->
+
+<!-- 查找浮层 -->
+<div id="find" class="page" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 查找内容 --><div class="find_content">
+	<div class="bd">
+		<h4 class="dialog_tit">-- 查找拼伞信息 --</h4>
+
+		<div class="inputAreaWrap e_inputs_divide">
+			<div class="locationEx clear">
+				<div class="left">
+					<input onfocus="$('#location_list3').slideDown(200);return false;" onblur="$('#location_list3').slideUp(200);return false;" type="text" class="inputTxt tx_-1" value="苏州街地铁站" />
+				</div>
+				<div class="right">
+					<span class="c_tx0 tx_-1">起点</span>
+				</div>
+				<div id="location_list3" class="location_list">
+					<span class="item c_tx0 tx_-1">使用当前位置</span>
+					<span class="item e_location_list_divide c_tx0 tx_-1">常用</span>
+					<a href="javascript:return false;" class="item c_tx1 tx_-1">三元桥地铁站-凤凰城</a>
+					<a href="javascript:return false;" class="item c_tx1 tx_-1">苏州街地铁站-银科大厦</a>
+					<a href="javascript:return false;" class="item c_tx1 tx_-1">银科大厦-苏州街地铁站</a>
+				</div>
+			</div>
+			<div class="locationEx clear">
+				<div class="left">
+					<input onfocus="$('#location_list4').slideDown(200);return false;" onblur="$('#location_list4').slideUp(200);return false;" type="text" class="inputTxt tx_-1" value="银科大厦" />
+				</div>
+				<div class="right">
+					<span class="c_tx0 tx_-1">终点</span>
+				</div>
+				<div id="location_list4" class="location_list">
+					<span class="item c_tx0 tx_-1">使用当前位置</span>
+					<span class="item e_location_list_divide c_tx0 tx_-1">常用</span>
+					<a href="javascript:return false;" class="item c_tx1 tx_-1">三元桥地铁站-凤凰城</a>
+					<a href="javascript:return false;" class="item c_tx1 tx_-1">苏州街地铁站-银科大厦</a>
+					<a href="javascript:return false;" class="item c_tx1 tx_-1">银科大厦-苏州街地铁站</a>
+				</div>
+			</div>
+			<a href="javascript:;" class="exchange_location"><span class="ico20 ico_exchange0"></span></a>
+		</div>
+
+		<div class="inputAreaWrap">
+			<div class="btn1">
+				<input type="button" class="btn" onclick="$('.ui-dialog').dialog('close');" value="确定" />
+			</div>
+		</div>
+
+		<div class="inputAreaWrap" style="margin:0">
+			<div class="btn2">
+				<input type="button" class="btn" onclick="$('.ui-dialog').dialog('close');" value="取消" />
+			</div>
+		</div>
+
+	</div>
+</div>
+		<!-- /查找内容 -->
+
+	</div>
+	<div class="page_ft bg2" data-role="footer" data-position="fixed" data-tap-toggle="false">
+
+		<!-- 定位 --><div class="foot_location bg2 clear">
+	<div class="left">
+		<span class="ico20 ico_location2"></span> <a class="vt_m tx_-1" href="javascript:;">北京市朝阳区花家地西里</a>
+	</div>
+	<div class="right">
+		<span class="ico20 ico_refresh2"></span>
+	</div>
+</div>
+		<!-- 定位 -->
+
+	</div>
+</div>
+<!-- /查找浮层 -->
+
+<!-- 拼伞浮层 -->
+<div id="pin" class="page" data-role="page" data-title="瑶瑶拼伞">
+	<div class="page_bd bg0" data-role="content">
+
+		<!-- 拼伞浮层内容 --><div class="find_content">
+	<div class="bd">
+		<h4 class="dialog_tit">-- 想与“夏目”拼伞 --</h4>
+
+		<div class="inputAreaWrap">
+			<div class="inputArea1">
+				<textarea class="tx_-1">打个招呼</textarea>
+			</div>
+			<div class="inputBottom clear"><div class="right"><span class="c_tx1 tx_-2">135字</span></div></div>
+		</div>
+
+		<div class="inputAreaWrap">
+			<div class="btn1">
+				<span class="ui-btn-inner">发送拼伞邀请</span>
+				<a class="btn" onclick="
+				$.mobile.changePage('#pin_success',{transition:'none', role:'dialog'});
+				window.setTimeout(function() {
+					$('#returnHome').trigger('click');
+				}, 2000);
+				">发送拼伞邀请</a>
+			</div>
+		</div>
+
+		<div class="inputAreaWrap" style="margin:0">
+			<div class="btn2">
+				<input type="button" class="btn" onclick="$('.ui-dialog').dialog('close');" value="取消" />
+			</div>
+		</div>
+
+	</div>
+</div>
+		<!-- /拼伞浮层内容 -->
+
+	</div>
+</div>
+<!-- /拼伞浮层 -->
+
+<!-- 成功浮层 -->
+<div id="pin_success" class="page" data-role="page" data-title="瑶瑶拼伞">
+	<style>
+	#pin_success .ui-dialog-contain{ width:50%; margin-top:40%;}
+	</style>
+	<div class="page_bd bg0" data-role="content">
+
+		<div class="pin_success_content">
+			<div class="bd">
+				<div class="c_tx2 tx_c"><span class="ico20 ico_success0"></span><span class="vt_m">发送成功</span></div>
+
+				<div class="inputAreaWrap" style="margin:0; visibility:hidden; position:absolute; top:0">
+					<div class="btn2">
+						<a id="returnHome" href="#umbrella" data-transition="none">返回主页</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- /成功浮层 -->
+
+<!-- guideline --><div id="page_guideline" class="page showSwipe" data-role="page" data-title="瑶瑶拼伞样式规范">
+	<div class="page_hd e_page_hd_normal bg1" data-role="header" data-position="fixed">
+		<a class="hd_l_btn f_righttarget" href="#my" data-transition="slide" data-direction="reverse"><span class="ico30 ico_arrleft"></span></a>
+		<h1 class="tit">
+			<div class="normal_tit">Icon Guideline</div>
+		</h1>
+	</div>
+	<div class="page_bd">
+		
+		<div class="content">
+
+			<div class="guideline_item">
+				<h2 class="guideline_divide tx_2">Icon(30px)</h2>
+			</div>
+
+			<div class="guideline_item bg0">
+				<p class="tx_1">Icon under bg0</p>
+				<p><span class="ico30 ico_search0"></span> ico30 ico_search0 搜索</p>
+				<p><span class="ico30 ico_announce0"></span> ico30 ico_announce0 喇叭</p>
+			</div>
+
+			<div class="guideline_item bg1 c_tx3">
+				<p class="tx_1">Icon under bg1</p>
+				<p><span class="ico30 ico_location"></span> ico30 ico_location 位置</p>
+				<p><span class="ico30 ico_publish"></span> ico30 ico_publish 发布</p>
+				<p><span class="ico30 ico_arrleft"></span> ico30 ico_arrleft 向左</p>
+				<p><span class="ico30 ico_3dots"></span> ico30 ico_3dots 更多</p>
+				<p><span class="ico30 ico_chatpop"></span> ico30 ico_chatpop IM</p>
+				<p><span class="ico30 ico_person"></span> ico30 ico_person 联系人</p>
+				<p><span class="ico30 ico_umbrella"></span> ico30 ico_umbrella 拼伞</p>
+			</div>
+
+			<div class="guideline_item bg2">
+				<p class="tx_1">Icon under bg2</p>
+				<p>(无)</p>
+			</div>
+
+			<div class="guideline_item bg3">
+				<p class="tx_1">Icon under bg3</p>
+				<p><span class="ico30 ico_together3"></span> ico30 ico_together3 拼伞</p>
+			</div>
+
+			<div class="guideline_item bg4">
+				<p class="tx_1">Icon under bg4</p>
+				<p><span class="ico30 ico_voice4"></span> ico30 ico_voice4 语音</p>
+				<p><span class="ico30 ico_plus4"></span> ico30 ico_plus4 附加</p>
+				<p><span class="ico30 ico_together4"></span> ico30 ico_together4 拼伞</p>
+				<p><span class="ico30 ico_chatpop4"></span> ico30 ico_chatpop4 IM</p>
+				<p><span class="ico30 ico_person4"></span> ico30 ico_person4 我的</p>
+			</div>
+
+			<div class="guideline_item">
+				<h2 class="guideline_divide tx_2">Icon(20px)</h2>
+			</div>
+
+			<div class="guideline_item bg0">
+				<p class="tx_1">Icon under bg0</p>
+				<p><span class="ico20 ico_exchange0"></span> ico20 ico_exchange0 切换</p>
+				<p><span class="ico20 ico_arrright0"></span> ico20 ico_arrright0 向右</p>
+				<p><span class="ico20 ico_sina0"></span> ico20 ico_sina0 新浪微博</p>
+				<p><span class="ico20 ico_qq0"></span> ico20 ico_qq0 QQ</p>
+				<p><span class="ico20 ico_radio0"></span> ico20 ico_radio0 单选未选</p>
+				<p><span class="ico20 ico_radio_checked0"></span> ico20 ico_radio_checked0 单选已选</p>
+				<p><span class="ico20 ico_female0"></span> ico20 ico_female0 女</p>
+				<p><span class="ico20 ico_male0"></span> ico20 ico_male0 男</p>
+				<p><span class="ico20 ico_praise0"></span> ico20 ico_praise0 好人指数已选</p>
+				<p><span class="ico20 ico_praise_disabled0"></span> ico20 ico_praise_disabled0 好人指数未选</p>
+				<p><span class="ico20 ico_feel0"></span> ico20 ico_feel0 心情指数已选</p>
+				<p><span class="ico20 ico_feel_disabled0"></span> ico20 ico_feel_disabled0 心情指数未选</p>
+				<p><span class="ico20 ico_medal0"></span> ico20 ico_medal0 勋章</p>
+				<p><span class="ico20 ico_success0"></span> ico20 ico_medal0 勋章</p>
+			</div>
+
+			<div class="guideline_item bg1 c_tx3">
+				<p class="tx_1">Icon under bg1</p>
+				<p>(无)</p>
+			</div>
+
+			<div class="guideline_item bg2">
+				<p class="tx_1">Icon under bg2</p>
+				<p><span class="ico20 ico_location2"></span> ico20 ico_location2 位置</p>
+				<p><span class="ico20 ico_refresh2"></span> ico20 ico_refresh2 刷新</p>
+			</div>
+
+			<div class="guideline_item bg3">
+				<p class="tx_1">Icon under bg3</p>
+				<p><span class="ico20 ico_arrright3"></span> ico20 ico_arrright3 向右</p>
+				<p><span class="ico20 ico_arrbottom3"></span> ico20 ico_arrbottom3 向下</p>
+				<p><span class="ico20 ico_male3"></span> ico20 ico_male3 男</p>
+				<p><span class="ico20 ico_female3"></span> ico20 ico_female3 女</p>
+			</div>
+
+			<div class="guideline_item bg4">
+				<p class="tx_1">Icon under bg4</p>
+				<p>(无)</p>
+			</div>
+
+		</div>
+
+	</div>
+	
+</div>
+<!-- /guideline -->
+
+</body>
+</html>

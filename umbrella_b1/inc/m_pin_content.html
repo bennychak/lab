@@ -1,0 +1,31 @@
+<div class="find_content">
+	<div class="bd">
+		<h4 class="dialog_tit">-- 想与“夏目”拼伞 --</h4>
+
+		<div class="inputAreaWrap">
+			<div class="inputArea1">
+				<textarea class="tx_-1">打个招呼</textarea>
+			</div>
+			<div class="inputBottom clear"><div class="right"><span class="c_tx1 tx_-2">135字</span></div></div>
+		</div>
+
+		<div class="inputAreaWrap">
+			<div class="btn1">
+				<span class="ui-btn-inner">发送拼伞邀请</span>
+				<a class="btn" onclick="
+				$.mobile.changePage('#pin_success',{transition:'none', role:'dialog'});
+				window.setTimeout(function() {
+					$('#returnHome').trigger('click');
+				}, 2000);
+				">发送拼伞邀请</a>
+			</div>
+		</div>
+
+		<div class="inputAreaWrap" style="margin:0">
+			<div class="btn2">
+				<input type="button" class="btn" onclick="$('.ui-dialog').dialog('close');" value="取消" />
+			</div>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,129 @@
+<!--#include file="inc/header.html"-->
+<style>
+.logo{ width:250px; height:60px; background-size:260px 60px; margin-top:0;}
+@media screen and (min-width: 900px) {
+.menu .item{ border-top:none;}
+}
+@media screen and (min-width: 1150px) {
+.logo{ width:250px; height:60px}
+}
+</style>
+<div class="toparea">
+
+<!--#include file="inc/nav.html"-->
+
+<div class="menu">
+<div class="logo"></div>
+<ul class="clear">
+<li class="item tx_20">
+	<a href="###"><span class="tx_tge c_tx4">01</span> 首页</a>
+</li>
+<li class="item tx_20">
+	<a href="###"><span class="tx_tge c_tx4">02</span> 体育访谈</a>
+</li>
+<li class="item tx_20">
+	<a href="###"><span class="tx_tge c_tx4">03</span> 赛事直播</a>
+</li>
+<li class="item tx_20">
+	<a href="###"><span class="tx_tge c_tx4">04</span> 图片</a>
+</li>
+<li class="item tx_20">
+	<a href="###"><span class="tx_tge c_tx4">05</span> 体育论坛</a>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div class="submenu">
+	<div class="bd clear">
+	<a href="###">体育访谈</a>
+	<a href="###">体育访谈</a>
+	<a href="###">体育访谈</a>
+	<a href="###">体育访谈</a>
+	<a href="###">体育访谈</a>
+	</div>
+</div>
+
+<div class="bodyarea">
+	<div class="bodylist">
+		<h2>体育访谈</h2>
+		<ul>
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+		</ul>
+		<h2>体育访谈</h2>
+		<ul>
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+
+		<li class="item">
+			<a href="###">澳网冠军瓦林卡首轮出局</a>
+		</li>
+		</ul>
+	</div>
+</div>
+
+<!--#include file="inc/footer.html"-->

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; background-color:#000}
+body,div{ margin:0;}
+.w{ text-align:center; padding:20px 0 0;}
+.c,.c:before,.c:after{ border-style:solid;}
+.c,.c:after{ border-color:#000;}
+.c{ position:relative; display:inline-block; border-radius:50%; border-width:20px;/* 圈圈宽度20px */ margin:3px; /* 圈圈间距 */}
+.c:before,.c:after{ border-width:20px 0 20px 20px; border-radius:100% 0 0 100% / 50% 0 0 50%; content:''; position:absolute; width:50%; height:100%; top:-20px; left:-20px;}
+.c:after{ -webkit-animation:mask 1s steps(1,end) 1; -webkit-transform-origin:100% 50%;}
+.c:before{ border-color:#ff0; -webkit-animation:round 2s linear 1; -webkit-transform-origin:100% 50%;}
+@-webkit-keyframes mask{
+	0%{ -webkit-transform:rotate(0deg);}
+	100%{ border-color:#ff0; -webkit-transform:rotate(180deg);}
+}
+@-webkit-keyframes round{
+	0%{ -webkit-transform:rotate(0deg);}
+	100%{ -webkit-transform:rotate(360deg);}
+}
+.c:before,.c:after{-webkit-animation-fill-mode:forwards;}
+.center{ width:50px; height:50px; line-height:50px}
+</style>
+<script src="http://mat1.gtimg.com/www/mb/mv/js/jquery.min.js"></script>
+<script>
+$(function(){
+	var dataArr = [10,30,50,70,90];// 数据数组，百分比单位
+	for(i=0;i<dataArr.length;i++){
+		$('.center').wrap('<div class="c"></div>');
+		$('.c:eq('+ i +')').addClass('c' + i).attr('role','data:'+dataArr[i]);
+		if(dataArr[i]<50){
+			$('body').append('<style>.c'+i+':after{-webkit-animation-name:mask'+i+'}@-webkit-keyframes mask'+i+'{100%{-webkit-transform:rotate(0deg)}}</style>');
+		}
+		$('body').append('<style>.c'+i+':before{-webkit-animation-name:round'+i+'; -webkit-animation-duration:'+dataArr[i]/100*2+'s;}@-webkit-keyframes round'+i+'{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate('+360/100*dataArr[i]+'deg)}}</style>');
+	}
+});
+</script>
+</head>
+<body>
+<div class="w">
+	<div class="center">Data</div>
+</div>
+</body>
+</html>

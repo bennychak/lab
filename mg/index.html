@@ -5,13 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
-<title>Data Circle</title>
+<title>Data Chart</title>
 <style>
 body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; margin:0;}
 body,
 .c:after,
 .center{ background-color:#1f1a17}
-.w{ text-align:center; padding:20px 0 0;}
+.w{ text-align:center;
+	-webkit-perspective:200px;
+	perspective:200px;
+}
+.chart{ display:inline-block; padding:100px 0 0;
+	-webkit-transform-origin:50% 50%;
+	-webkit-perspective-origin:400px;
+	-webkit-transform:rotateY(-20deg);
+}
 .c,
 .c:before,
 .center{ box-shadow:#1f1a17 0 0 0 5px,#1f1a17 0 0 0 5px inset; /* 圈圈间距 */}
@@ -22,10 +30,34 @@ body,
 .c:after{ border-style:solid;}
 .c{ position:relative; display:inline-block; border-radius:50% 50%; border-width:20px;/* 圈圈宽度20px */}
 .c:before,
-.c:after{ border-width:20px 0 20px 20px; border-radius:100% 0 0 100% / 50% 0 0 50%; content:''; position:absolute; width:50%; height:100%; top:-20px; left:-20px; -webkit-animation-timing-function:linear; animation-timing-function:linear; -webkit-animation-iteration-count:1; animation-iteration-count:1; -webkit-transform-origin:100% 50%; transform-origin:100% 50%; -webkit-transform-style:preserve-3d; transform-style:preserve-3d; -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;}
-.c:before{ -webkit-animation-duration:1s;animation-duration:1s;}
-.c:after{ -webkit-animation-duration:.5s; animation-duration:.5s; -webkit-animation-timing-function:steps(1,end); animation-timing-function:steps(1,end);}
-.center{ border-radius:50%; position:relative; z-index:999; width:50px; height:50px; line-height:50px}
+.c:after{ border-width:20px 0 20px 20px; border-radius:100% 0 0 100% / 50% 0 0 50%; content:''; position:absolute; width:50%; height:100%; top:-20px; left:-20px;
+	-webkit-animation-timing-function:linear;
+	animation-timing-function:linear;
+	-webkit-animation-iteration-count:1;
+	animation-iteration-count:1;
+	-webkit-transform-origin:100% 50%;
+	transform-origin:100% 50%;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+	-webkit-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+.c:before{
+	-webkit-animation-duration:1s;
+	animation-duration:1s;
+}
+.c:after{
+	-webkit-animation-duration:.5s;
+	animation-duration:.5s;
+	-webkit-animation-timing-function:steps(1,end);
+	animation-timing-function:steps(1,end);
+}
+.center{ border-radius:50%; position:relative; z-index:999; width:150px; height:150px;
+	display:-webkit-box;
+	display:box;
+	-webkit-box-align:center;
+	box-align:center;
+}
 </style>
 <script src="http://mat1.gtimg.com/www/mb/mv/js/jquery.min.js"></script>
 <script>
@@ -35,7 +67,7 @@ $(function(){
 	for(i=0;i<dataArr.length;i++){
 		$('.center').wrap('<div class="c"></div>');
 		$('.c:eq('+ i +')').addClass('c' + i);
-		if(dataArr[i]>50){
+		if(dataArr[i]>=50){
 			$('body').append('<style>.c'+i+':after{-webkit-animation-name:mask'+i+';animation-name:mask'+i+';}@-webkit-keyframes mask'+i+'{0%{-webkit-transform:rotate(0deg)}100%{border-color:'+dataClr[i]+'; -webkit-transform:rotate(180deg)}}@keyframes mask'+i+'{0%{transform:rotate(0deg)}100%{border-color:'+dataClr[i]+';transform:rotate(180deg)}}</style>');
 		}
 		$('body').append('<style>.c'+i+'{z-index:'+i+';}.c'+i+':before{border-color:'+dataClr[i]+';-webkit-animation-name:round'+i+';animation-name:round'+i+';-webkit-animation-duration:'+dataArr[i]/100*1+'s;animation-duration:'+dataArr[i]/100*1+'s;}@-webkit-keyframes round'+i+'{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate('+360/100*dataArr[i]+'deg)}}@keyframes round'+i+'{0%{transform:rotate(0deg)}100%{transform:rotate('+360/100*dataArr[i]+'deg)}}</style>');
@@ -45,7 +77,9 @@ $(function(){
 </head>
 <body>
 <div class="w">
-<div class="center">Data</div>
+<div class="chart">
+<div class="center"><span>CSS Percentage Chart</span></div>
+</div>
 </div>
 </body>
 </html>

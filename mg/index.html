@@ -7,32 +7,36 @@
 <meta name="format-detection" content="telephone=no" />
 <title>Data Circle</title>
 <style>
-body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; background-color:#000}
-body,div{ margin:0;}
+body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; background-color:#000; margin:0;}
 .w{ text-align:center; padding:20px 0 0;}
-.c,.c:before,.center{ box-shadow:#000 0 0 0 5px,#000 0 0 0 5px inset; /* 圈圈间距 */}
-.c:after{}
-.c,.c:before,.c:after{ border-style:solid; }
-.c,.c:after{ border-color:#000;}
+.c,
+.c:before,
+.center{ box-shadow:#000 0 0 0 5px,#000 0 0 0 5px inset; /* 圈圈间距 */}
+.c,
+.c:before,
+.c:after{ border-style:solid; }
+.c,
+.c:after{ border-color:#000;}
 .c{ position:relative; display:inline-block; border-radius:50% 50%; border-width:20px;/* 圈圈宽度20px */}
-.c:before,.c:after{ border-width:20px 0 20px 20px; border-radius:100% 0 0 100% / 50% 0 0 50%; content:''; position:absolute; width:50%; height:100%; top:-20px; left:-20px;}
-.c:after{ background-color:#000; -webkit-animation:mask 1s steps(1,end) 1; -webkit-transform-origin:100% 50%;}
-.c:before{ border-color:#ff0; -webkit-animation:round 2s linear 1; -webkit-transform-origin:100% 50%;}
+.c:before,
+.c:after{ border-width:20px 0 20px 20px; border-radius:100% 0 0 100% / 50% 0 0 50%; content:''; position:absolute; width:50%; height:100%; top:-20px; left:-20px; -webkit-animation-timing-function:linear; -webkit-animation-iteration-count:1; -webkit-animation-duration:2s; -webkit-transform-origin:100% 50%;}
+.c:after{ background-color:#000; -webkit-animation-name:mask; -webkit-animation-delay:1s; }
+.c:before{ border-color:#ff0; -webkit-animation-name:round;}
 @-webkit-keyframes mask{
-	0%{ -webkit-transform:rotate(0deg);}
-	100%{ border-color:#ff0; -webkit-transform:rotate(180deg);}
+	0%,100%{ border-color:#ff0;-webkit-transform:rotate(180deg);}
 }
 @-webkit-keyframes round{
 	0%{ -webkit-transform:rotate(0deg);}
 	100%{ -webkit-transform:rotate(360deg);}
 }
-.c:before,.c:after{-webkit-animation-fill-mode:forwards;}
+.c:before,
+.c:after{ -webkit-animation-fill-mode:forwards;}
 .center{ background-color:#000; border-radius:50%; position:relative; z-index:999; width:50px; height:50px; line-height:50px}
 </style>
 <script src="http://mat1.gtimg.com/www/mb/mv/js/jquery.min.js"></script>
 <script>
 $(function(){
-	var dataArr = [100,30,50,70,90];// 数据数组，百分比单位
+	var dataArr = [90,30,50,70,90];// 数据数组，百分比单位，有多少数据写多少个
 	for(i=0;i<dataArr.length;i++){
 		$('.center').wrap('<div class="c"></div>');
 		$('.c:eq('+ i +')').addClass('c' + i);

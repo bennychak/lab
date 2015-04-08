@@ -15,11 +15,9 @@ body,
 	-webkit-perspective:200px;
 	perspective:200px;
 }
-.chart{ display:inline-block; padding:100px 0 0;
-	-webkit-transform-origin:50% 50%;
-	transform-origin:50% 50%;
-	-webkit-perspective-origin:400px;
-	perspective-origin:400px;
+.chart1{ display:inline-block; padding:100px 0 0;
+	-webkit-transform-origin:50% 0%;
+	transform-origin:90% 0%;
 	-webkit-transform:rotateY(-20deg);
 	transform:rotateY(-20deg);
 }
@@ -57,8 +55,10 @@ body,
 }
 .center{ border-radius:50%; position:relative; z-index:999; width:150px; height:150px;
 	display:-webkit-box;
+	display:-moz-box;
 	display:box;
 	-webkit-box-align:center;
+	-moz-box-align:center;
 	box-align:center;
 }
 </style>
@@ -80,9 +80,9 @@ $(function(){
 </head>
 <body>
 <div class="w">
-<div class="chart">
-<div class="center"><span>CSS Percentage Chart</span></div>
-</div>
+	<div class="chart1">
+		<div class="center"><span>CSS Percentage <br />Chart</span></div>
+	</div>
 </div>
 </body>
 </html>

@@ -20,7 +20,7 @@ body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; background-color:#00
 .c{ position:relative; display:inline-block; border-radius:50% 50%; border-width:20px;/* 圈圈宽度20px */}
 .c:before,
 .c:after{ border-width:20px 0 20px 20px; border-radius:100% 0 0 100% / 50% 0 0 50%; content:''; position:absolute; width:50%; height:100%; top:-20px; left:-20px; -webkit-animation-timing-function:linear; -webkit-animation-iteration-count:1; -webkit-animation-duration:2s; -webkit-transform-origin:100% 50%; -webkit-transform-style:preserve-3d;}
-.c:after{ background-color:#000; -webkit-animation-name:mask; -webkit-animation-delay:1s; }
+.c:after{ background-color:#000; -webkit-animation-name:mask; -webkit-animation-delay:1s; -webkit-animation-timing-function:steps(1,end);}
 .c:before{ border-color:#ff0; -webkit-animation-name:round;}
 @-webkit-keyframes mask{
 	0%,100%{ border-color:#ff0;-webkit-transform:rotateY(180deg);}

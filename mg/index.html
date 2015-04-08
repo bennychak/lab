@@ -23,7 +23,8 @@ body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; background-color:#00
 .c:after{ background-color:#000; -webkit-animation-name:mask; -webkit-animation-delay:1s; }
 .c:before{ border-color:#ff0; -webkit-animation-name:round;}
 @-webkit-keyframes mask{
-	0%,100%{ border-color:#ff0;-webkit-transform:rotate(180deg);}
+	0%{border-color:#ff0;-webkit-transform:rotate(180deg);}
+	100%{ border-color:#ff0;-webkit-transform:rotate(180deg);}
 }
 @-webkit-keyframes round{
 	0%{ -webkit-transform:rotate(0deg);}

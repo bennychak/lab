@@ -23,12 +23,12 @@ body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; background-color:#00
 .c:after{ background-color:#000; -webkit-animation-name:mask; -webkit-animation-delay:1s; }
 .c:before{ border-color:#ff0; -webkit-animation-name:round;}
 @-webkit-keyframes mask{
-	0%,100%{ border-color:#ff0; left:auto; right:-20px; border-radius:0 100% 100% 0 / 0 50% 50% 0; border-width:20px 20px 20px 0;}
+	0%,100%{ border-color:#ff0;-webkit-transform:rotate(180deg);}
 }
-@-webkit-keyframes round{
+/*@-webkit-keyframes round{
 	0%{ -webkit-transform:rotate(0deg);}
 	100%{ -webkit-transform:rotate(360deg);}
-}
+}*/
 .c:before,
 .c:after{ -webkit-animation-fill-mode:forwards;}
 .center{ background-color:#000; border-radius:50%; position:relative; z-index:999; width:50px; height:50px; line-height:50px}
@@ -41,7 +41,7 @@ $(function(){
 		$('.center').wrap('<div class="c"></div>');
 		$('.c:eq('+ i +')').addClass('c' + i);
 		if(dataArr[i]<50){
-			$('body').append('<style>.c'+i+':after{-webkit-animation-name:mask'+i+'}@-webkit-keyframes mask'+i+'{0%,100%{border-radius:100% 0 0 100% / 50% 0 0 50%;}}</style>');
+			$('body').append('<style>.c'+i+':after{-webkit-animation-name:mask'+i+'}@-webkit-keyframes mask'+i+'{0%,100%{-webkit-transform:rotate(0deg)}}</style>');
 		}
 		$('body').append('<style>.c'+i+'{z-index:'+i+';}.c'+i+':before{-webkit-animation-name:round'+i+'; -webkit-animation-duration:'+dataArr[i]/100*2+'s;}@-webkit-keyframes round'+i+'{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate('+360/100*dataArr[i]+'deg)}}</style>');
 	}

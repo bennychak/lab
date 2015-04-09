@@ -11,6 +11,6 @@ for(i=0;i<dataArr.length;i++){
 	}
 	$('body').append('<style>.c'+i+'{z-index:'+i+';}.c'+i+':before{border-color:'+dataClr[i]+';-webkit-animation-name:round'+i+';animation-name:round'+i+';-webkit-animation-duration:'+dataArr[i]/100*1+'s;animation-duration:'+dataArr[i]/100*1+'s;}@-webkit-keyframes round'+i+'{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate('+360/100*dataArr[i]+'deg)}}@keyframes round'+i+'{0%{transform:rotate(0deg)}100%{transform:rotate('+360/100*dataArr[i]+'deg)}}</style>');
 }
-$('.chart1').css('display','inline-block');
+$('.chart1').css('visibility','visible');
 
 });

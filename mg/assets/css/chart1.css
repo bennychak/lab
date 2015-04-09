@@ -1,18 +1,11 @@
-body{ font:16px/1.5 Helvetica,Arial,sans-serif; color:#fff; margin:0;}
-h2{ margin:0; padding:20px 0; font-weight:100; color:#fff; font-style:italic;}
-body,
-.c:after,
-.center{ background-color:#1f1a17}
-.w{ text-align:center;
-	-webkit-perspective:200px;
-	perspective:200px;
-}
-.chart1{ display:none;
+.chart1{ visibility:hidden; min-height:350px;
 	-webkit-transform-origin:50% 0%;
 	transform-origin:50% 0%;
 	-webkit-transform:rotateY(-20deg);
 	transform:rotateY(-20deg);
 }
+.c:after,
+.center{ background-color:#1f1a17}
 .c,
 .c:before,
 .center{ box-shadow:#1f1a17 0 0 0 5px,#1f1a17 0 0 0 5px inset; /* 圈圈间距 */}

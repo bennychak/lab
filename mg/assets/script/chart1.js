@@ -2,7 +2,14 @@ $(function(){
 
 //Chart1
 var dataArr = [90,30,50,70,90];// 数据数组，百分比单位，有多少数据写多少个
-var dataClr = ['#fdf9cc','#93c62d','#17ad42','#28d1bc','#d6d8ef'];//数据颜色，和数据数量对应
+var dataClr = ['#44301A','#D8B488','#F0D4C2','#A9876D','#D2AF82'];// 书桌台灯
+
+if(dataClr.length - dataArr.length < 0){
+	for(j=dataClr.length;j<dataArr.length;j++){
+		dataClr[j] = '#fff'; // 默认颜色
+	}
+}
+
 for(i=0;i<dataArr.length;i++){
 	$('.center').wrap('<div class="c"></div>');
 	$('.c:eq('+ i +')').addClass('c' + i);
@@ -11,6 +18,7 @@ for(i=0;i<dataArr.length;i++){
 	}
 	$('body').append('<style>.c'+i+'{z-index:'+i+';}.c'+i+':before{border-color:'+dataClr[i]+';-webkit-animation-name:round'+i+';animation-name:round'+i+';-webkit-animation-duration:'+dataArr[i]/100*1+'s;animation-duration:'+dataArr[i]/100*1+'s;}@-webkit-keyframes round'+i+'{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate('+360/100*dataArr[i]+'deg)}}@keyframes round'+i+'{0%{transform:rotate(0deg)}100%{transform:rotate('+360/100*dataArr[i]+'deg)}}</style>');
 }
+
 $('.chart1').css('visibility','visible');
 
 });

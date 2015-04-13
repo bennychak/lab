@@ -2,7 +2,7 @@ $(function(){
 
 //Chart1
 var dataArr = [90,30,50,70,90];// 数据数组，百分比单位，有多少数据写多少个
-var dataClr = ['#44301A','#D8B488','#F0D4C2','#A9876D','#D2AF82'];// 书桌台灯
+var dataClr = ['#31401B','#9AA63F','#D9BB62','#F2C6A0','#F27D72'];// 书桌台灯
 
 if(dataClr.length - dataArr.length < 0){
 	for(j=dataClr.length;j<dataArr.length;j++){

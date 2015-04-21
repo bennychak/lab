@@ -1,3 +1,9 @@
+html,body{ height:100%}
+h2,div{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
 .ioslist-wrapper{
 	height: 100%;
 	overflow-x: hidden;
@@ -15,15 +21,12 @@
 	position: relative;
 }
 .ioslist-group-header, .ioslist-fake-header {
-	background: #B8C1C8;
-	border-bottom: 1px solid #989EA4;
-	border-top: 1px solid #717D85;
-	color: #FFF;
-	font: normal 18px/21px Helvetica, Arial, sans-serif;
+	background: #f8f9fa;
+	color: #949494;
+	font: normal 12px/26px Helvetica, Arial, sans-serif;
 	margin: 0;
-	padding: 2px 0 0 12px;
+	padding-left:15px;
 	position: absolute;
-	text-shadow: 0 1px #646A6E;
 	-moz-text-shadow: 0 1px #646A6E;
 	-webkit-text-shadow: 0 1px #646A6E;
 }
@@ -31,10 +34,10 @@
 	bottom: auto;
 	min-height: 1px;
 	top: 0;
-	width: 273px;
+	width: 100%;
 }
 .ioslist-fake-header {
-	width: 273px;
+	width: 100%;
 	z-index: 1000;
 }
 
@@ -53,32 +56,31 @@ body {
 }
 
 #list1 {
-	height: 300px;
-	margin: 100px;
+	height: 100%;
 	overflow: visible;
 	position: relative;
-	width: 300px;
+	width: 100%;
 	zoom: 1;
 }
 
 .ioslist ul {
 	list-style: none;
 	margin: 0;
+	margin-left:15px;
 	padding: 0;
 }
 
 .ioslist li {
-	font: normal 20px/45px Helvetica, Arial, sans-serif;
-	margin: 0;
-	padding: 0 0 0 12px;
+	font: normal 17px/40px Helvetica, Arial, sans-serif;
+	margin:0;
 	white-space: nowrap;
 }
 
 .ioslist li + li {
-	border-top: 1px solid #CCC;
+	border-top: 1px solid #dedfe0;
 }
 
 [data-ios="true"] .ioslist-group-header,
 [data-ios="true"] .ioslist-fake-header {
-	width: 288px; /*scrollbars aren't visible in iOS devices, so make the headers wider */
+	width: 100%; /*scrollbars aren't visible in iOS devices, so make the headers wider */
 }
